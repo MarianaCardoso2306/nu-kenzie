@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+
+:root {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+
+  --color-primary: #fd377e;
+  --color-primary-2: #e34981;
+  --color-secondary: #03b898;
+  --grey-4: #212529;
+  --grey-3: #868e96;
+  --grey-2: #e9ecef;
+  --grey-1: #f8f9fa;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+button {
+  border-radius: 8px;
+  border: 2px solid transparent;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+input,
+select {
+  outline: none;
+  padding: 0.7rem 1rem;
+  border-radius: 8px;
+
+  font-family: "Nunito", sans-serif;
+  color: var(--grey-4);
+  border: 2px solid transparent;
+  background-color: var(--grey-1);
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: "none";
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+input:hover {
+  border: 2px solid var(--grey-4);
+}
+
+select:hover {
+  border: 2px solid var(--grey-4);
+}
+input:focus {
+  border: 2px solid var(--grey-4);
+}
+
+select:focus {
+  border: 2px solid var(--grey-4);
+}
